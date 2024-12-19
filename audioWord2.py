@@ -16,7 +16,7 @@ def browse_file():
     Opens a file dialog to select an audio file and returns the file path.
     """
     root = tk.Tk()
-    root.withdraw()  # Hide the main window
+    root.withdraw()  # Hides the main window
     file_path = filedialog.askopenfilename(
         title="Select an Audio File",
         filetypes=[("Audio Files", "*.mp3;*.wav;*.m4a")]
